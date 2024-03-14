@@ -1,9 +1,12 @@
 #include <iostream>
+#include "assert.h"
 using namespace std;
+
 int main()
 {
     int n;
     cin >> n;
+    assert(n<=9);
     for (int i = 0; i < n; i++)
     {
         int start_num_index = 8 - i;
